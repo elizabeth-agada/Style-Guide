@@ -9,43 +9,54 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
     <title>Style Guide. edu portal</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-  <nav class="navbar navbar-expand-lg navbar-blue bg-blue">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Portal</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Styles</a>
-        </li>
+      <nav>
+        <div class="nav-left">
+            <img src="#">
+            <ul>
+                <li></li>
+                 <li></li>
+                 <li></li>
+            
+            </ul>
+          
+          </div>
+        <div class="nav-right">
+            <div class="serch-box">
+                <img src="#">
+                <input type="text" placeholder="search">
+            
+            </div>
+            <div class="nav-user-icon">
+                <img src="#">
+            </div>
+          
+          </div>
+    </nav>
+      <div class="containern">
+    <div class="left-sidebar">
+        <div class="style-link">
+            <a href="#">Logo</a>
+            <a href="#">Color</a>
+            <a href="#">Topography</a>
+            <a href="#">Image</a>
+            <a href="#">Voice</a>
         
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Patterns
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Red</a></li>
-            <li><a class="dropdown-item" href="#">Blue</a></li>
-            <li><a class="dropdown-item" href="#">Green</a></li>
-            <li><a class="dropdown-item" href="#">Black</a></li>
-           
-          </ul>
-        </li>
-        </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+        </div>
     </div>
-  </div>
-</nav>
+    <div class="main-content">
+    
+    <div class="col-lg-12">
+    <p> OVERVIEW</p><br>
+    <p>Portal is a commonly used phrase to describe the login page where students can
+   provide a username and passwordto gain access to an<br> education  organization's programs
+    and other learning related materials.</p>
+</div>
+
+  
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->

@@ -13,7 +13,7 @@
     color: #999999;
   }
   
-  .btn-treehouse {
+  .btn-green {
     color: white;
     padding: 10px 15px;
     border-radius: 4px;
@@ -21,9 +21,61 @@
     background: #6AD58B;
   }
   
-  .btn-treehouse:hover {
+  .btn-green:hover {
     opacity: 1;
     background: #6AD58B;
+    text-decoration: none;
+    color: white;
+  }
+.btn-red {
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    background: red;
+  }
+.btn-red:hover {
+    opacity: 1;
+    background: brown;
+    text-decoration: none;
+    color: white;
+  }
+.btn-blue {
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    background: blue;
+  }
+.btn-blue:hover {
+    opacity: 1;
+    background: black;
+    text-decoration: none;
+    color: white;
+  }
+.btn-yellow {
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    background: yellow;
+  }
+.btn-yellow:hover {
+    opacity: 1;
+    background: black;
+    text-decoration: none;
+    color: white;
+  }
+.btn-black {
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    background: #000000;
+  }
+.btn-black:hover {
+    opacity: 1;
+    background: brown;
     text-decoration: none;
     color: white;
   }

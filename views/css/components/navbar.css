@@ -1,0 +1,12 @@
+.bg-blue {
+    background-color: blue;
+}
+.navbar-brand1 {
+    float: right;
+    padding: 10px;
+    color: white;
+    margin-right: 20px;
+}
+.navbar-brand1 :hover {
+    background-color: brown;
+}

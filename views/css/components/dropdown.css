@@ -1,7 +1,11 @@
 .dropdown-menu {
     box-shadow: none;
+    color: black;
   }
   .dropdown-menu a {
     font-weight: lighter !important;
-    color: #E6E6E6 !important;
+    color: black !important;
   }
+.dropdown {
+    color: black;
+}

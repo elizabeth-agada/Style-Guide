@@ -7,25 +7,66 @@
     <title>StyleGuide</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
    
   </head>
   <body>
+      
+
 
     <div class="container">
+        
+        
+   
+        
       <h1 class="text-center">Style Guide</h1>
+        <h2>Navbar</h2>
+<nav class="bg-blue">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="img/img1.jpg" class="avatar" alt="" width="30" height="24">
+    </a>
+       <a class="navbar-brand1" href="#">
+      Home
+    </a>
+       <a class="navbar-brand1" href="#">
+     About
+    </a>
+       <a class="navbar-brand1" href="#">
+     Contact
+    </a>
+  </div>
+</nav>
 
-      <h2>Avatar design</h2>
+      <h2>Avatar</h2>
       <img src="img/img1.jpg" alt="" class="avatar">
       <img src="img/img1.jpg" alt="" class="avatar-small">
 
-      <h2>Button design</h2>
-      <a href="#" class="btn-medium">Write stories</a>
-      <a href="#" class="btn-treehouse">Start now</a>
+      <h2>Button</h2>
+      <a href="#" class="btn-medium">Start now</a>
+      <a href="#" class="btn-green">Start now</a>
+        <a href="#" class="btn-red">Start now</a>
+        <a href="#" class="btn-blue">Start now</a>
+        <a href="#" class="btn-yellow">Start now</a>
+        <a href="#" class="btn-black">Start now</a>
+        
+        <h2>Color</h2>
+    
+        <ul class="list-unstyled">
+            <li class="cl-red"></li><br>
+               <li class="cl-blue"></li><br>
+               <li class="cl-yellow"></li><br>
+               <li class="cl-black"></li><br>
+               <li class="cl-green"></li><br>
+        
+        </ul>
+        
+        
+        
 
-      <h2>Dropdown design</h2>
+      <h2>Dropdown</h2>
       <div class="dropdown">
-        <img src="img/img1.jpg" alt="" class="avatar dropdown-toggle" id="navbar-menu" data-toggle="dropdown">
+          <i class="fa fa-caret-down" alt="" class="avatar dropdown-toggle" id="navbar-menu" data-toggle="dropdown"></i>
         <ul class="dropdown-menu" aria-labelledby="navbar-menu">
           <li><a href="#">Profile</a></li>
           <li><a href="#">Dashboard</a></li>
@@ -33,7 +74,7 @@
         </ul>
       </div>
 
-      <h2>Card design</h2>
+      <h2>Card</h2>
       <div class="row">
         <div class="col-xs-12 col-sm-4">
           <div class="card">
@@ -67,11 +108,11 @@
         </div>
       </div>
 
-      <h2>Badge design</h2>
+      <h2>Badge</h2>
       <img src="img/img1.jpg" alt="" class="avatar">
       <span class="badge">3</span>
       
-      <h2>Banner design</h2>
+      <h2>Banner</h2>
       <div class="banner">
         <div class="banner-content">
           <h1>Stripe</h1>
@@ -80,7 +121,7 @@
         </div>
       </div>
 
-      <h2>Tabs design</h2>
+      <h2>Tabs</h2>
       <ul class="list-inline tabs-underlined">
   <li>
     <a href="#" class="tab-underlined active">Bookings</a>
@@ -94,7 +135,7 @@
 </ul>
 
 
-      <h2>List design</h2>
+      <h2>List</h2>
       <ul class="list-unstyled">
         <li class="product">
 
@@ -157,26 +198,30 @@
           </ul>
         </li>
       </ul>
-      <form novalidate="novalidate" class="simple_form search" action="/" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        <h2>Search</h2>
+      <form >
   <div class="search-form-control form-group">
-    <input class="form-control string required" type="text" name="search[query]" id="search_query" />
-    <button name="button" type="submit" class="btn btn-flat">
-      <i class="fas fa-search"></i> Search
+    <input class="form-control string required" type="text">
+    <button name="button" type="submit" class="btn btn-success">
+      <i class="fa fa-search"></i> Search
     </button>
     
   </div>
+        <h2>Text field</h2>
+          
 </form>
+        <h2>Footer</h2>
       <div class="footer">
   <div class="footer-links">
     
-    <a href="#"><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-facebook"></i></a>
-    <a href="#"><i class="fab fa-twitter"></i></a>
-    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
   </div>
   
   <div class="footer-copyright">
-    <i class="fas fa-heart"></i>Yottabit.consulting
+    <i class="fa fa-heart"></i>Yottabit.consulting
   </div>
 </div>
 

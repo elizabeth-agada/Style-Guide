@@ -1,0 +1,25 @@
+.cl-red {
+    height: 100px;
+    
+    background-color: red;
+}
+.cl-blue {
+    height: 100px;
+    
+    background-color: blue;
+}
+.cl-yellow {
+    height: 100px;
+    
+    background-color: yellow;
+}
+.cl-black {
+    height: 100px;
+    
+    background-color: #000000;
+}
+.cl-green {
+    height: 100px;
+    
+    background-color: green;
+}
